@@ -1,0 +1,79 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            margin-bottom: 10px;
+        }
+
+        body {
+            color: #95DBE5FF;
+            background-color: black;
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            text-align: center;
+            padding: 40px; 
+        }
+
+        .form-group > label {
+            display: flex; 
+            padding-inline-start: 30%;
+            margin-bottom: -50px;
+            padding-top: 20px;
+        }
+
+        button.btn.btn-default {
+            color: white;
+            background: none;
+            display: block;
+            margin: 20px auto;
+            text-align: center;
+            border: 2px solid #339E66FF;
+            padding: 14px 40px;
+            outline: none;
+            border-radius: 24px;
+            transition: 0.25s;
+            cursor: pointer;
+                    
+            
+        }
+
+        .calcInputValues {
+            font-size: 150%;
+        }
+
+        input.form-control.feetInputBox {
+            background: none;
+            display: block;
+            margin: 20px auto;
+            text-align: center;
+            border: 2px solid #078282FF;
+            padding: 14px 10px;
+            width: 200px;
+            outline: none;
+            color: white;
+            border-radius: 24px;
+            transition: 0.25s;
+            
+
+        }
+
+        input.form-control.inchesInputBox {
+            background: none;
+            display: block;
+            margin: 20px auto;
+            text-align: center;
+            border: 2px solid #078282FF;
+            padding: 14px 10px;
+            width: 200px;
+            outline: none;
+            color: white;
+            border-radius: 24px;
+            transition: 0.25s;
+            margin-bottom: 5%;
+        }
+
+
+
+
+
